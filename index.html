@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="contact-part">
+        <h1>Entrer en contact</h1>
+        <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> 
+            Rem, nobis     animi cum vitae quia placeat.</p>
+        <h2><i class="fa-regular fa-envelope"></i>GRAPHIQUE POUR NOUS</h2>
+        <div class="contact-paragraphs">
+            <p class="contact-part-text">Notre équipe amicale est là pour vous <br> aider.</p> <br>
+            <a class="contact-part-link" href="hi@ourcompany.com">hi@ourcompany.com</a>
+        </div>
+        <h2><i class="fa-solid fa-location-dot"></i>BUREAU</h2>
+        <p>
+            <div class="contact-paragraphs">  
+                <p class="contact-part-text">Venez dire bonjour à notre siège social.</p>
+                <address>
+                121 Rock Street, 21 Avenue,<br> 
+                New York, NY 92103-9000<br>
+                </address>
+            </div>
+        </p>
+        <h2><i class="fa-solid fa-phone"></i>TELEPHONER</h2>
+        <div class="contact-paragraphs">
+            <p class="contact-part-text">Du lundi au vendredi de 8h à 5h</p><br>
+            <span class="contact-part-link">+1(555) 000-000</span>
+        </div>
+    </div>
+    <div id="form-part">
+        <h1>Améliorez votre <br> marque</h1>
+        <p>Vous pouvez nous joindre à tout moment via <br>
+            <a href="hi@ourcompany.com">hi@ourcompany.com</a>
+        </p>
+        <form action="">
+            <label for="">Name</label>
+            <input id="name" type="text" placeholder="Enter your Name">
+            <p id="error-name">Veuillez respecter le format du nom : <br>
+            <em>Pas de chiffres ou de caractères spéciaux.</em></p>
+            <div class="email-section">
+                <label for="">Email</label>
+                <input id="email" type="text" placeholder="Enter a valid email address">
+                <p id="error-email">Veuillez respecter le format de l'email (<em>exemple: moi@mail.com</em>)</p>
+            </div>
+            <label for="">Phone</label>
+            <input id="phone" type="text" placeholder="Enter your phone (e.g. +14155552675)">
+            <p id="error-phone">Veuillez entrer un numéro de téléphone français.</p>
+            <label for="">How can we help ?</label>
+            <textarea id="textarea" cols="60" rows="6"></textarea>
+            <button type="submit">SOUMETTRE</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
